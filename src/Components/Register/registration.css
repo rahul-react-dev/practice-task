@@ -1,0 +1,80 @@
+.ellipse-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.ellipse-right {
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
+.ellipse-bleft {
+  position: absolute;
+  bottom: 0;
+  left: 70px;
+}
+.ellipse-bright {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.register-content {
+  background: rgba(255, 255, 255, 0.46);
+  backdrop-filter: blur(20px);
+  margin: 50px;
+}
+#reg_form input {
+  background: #ebebeb;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 0 14px 36px;
+  width: 100%;
+}
+#reg_form img {
+  position: absolute;
+  top: 18px;
+  left: 10px;
+}
+#reg_form input:focus {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+.form-content {
+  max-width: 350px;
+  margin: auto;
+  width: 100%;
+}
+.reg-acc-label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  font-size: 24px;
+  line-height: 29px;
+  color: #5a89f9;
+  margin: 10px 0;
+}
+.acc-head {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #bababa;
+}
+.submit-btn {
+  background: #5a89f9 !important;
+  border-radius: 20px !important;
+}
+.reg-padding {
+  padding: 70px;
+}
+.custom-checkbox input[type="checkbox"] {
+  color: #a5b9d5;
+  background: #ffffff;
+  border: 1px solid #5a89f9;
+  border-radius: 4px;
+  height: 17px;
+}
